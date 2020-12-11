@@ -166,7 +166,7 @@ li>a:hover{
     background-size: cover;
     background-position:center;
     padding:0 0  60px 0;
-    margin-top:-2px;
+    margin-top:-5px;
   }
 
   .main-container, #about, #services,#prices, #contact, #footer{
@@ -392,45 +392,43 @@ li>a:hover{
 #azalea{
     /*background-image: url("img/azalea-brush.png");*/
     background-size: 90%;
-    background-color: rgba(255, 255, 255, 0.38);
+    background-color: rgba(164, 116, 121, 0.7);
     background-position: center;
     background-repeat: no-repeat;
-    border:5px solid #1D1426;
+    border:5px solid white;
 }
 #tulip{
     /*background-image: url("img/tulip-brush.png");*/
     background-size: 110%;
-    background-color: rgba(255, 255, 255, 0.38);
+    background-color: rgba(164, 116, 121, 0.7);
     background-position:center;
     background-repeat: no-repeat;
-    border:5px solid #1D1426;
+    border:5px solid white;
 }
 #pion{
     /*background-image: url("img/pion-brush.png");*/
     background-size:90%;
-    background-color: rgba(255, 255, 255, 0.38);
+    background-color: rgba(164, 116, 121, 0.7);
     background-position:center;
     background-repeat: no-repeat;
-    border:5px solid #1D1426;
+    border:5px solid white;
 }
 #orkide{
     /*background-image: url("img/orkide-brush.png");*/
     background-size: 120%;
-    background-color: rgba(255, 255, 255, 0.38);
+    background-color: rgba(164, 116, 121, 0.7);
     background-position:center;
     background-repeat: no-repeat;
-    border:5px solid #1D1426;
+    border:5px solid white;
 }
 
  .text-box-prices{
      width:100%;
-
-   
      padding:15px;
  }
- .blue-border-box{
+ .white-border-box{
      width:100%;
-     border:solid 3px #1D1426;
+     border:solid 3px white;
      padding:30px;
 
  }
@@ -453,7 +451,7 @@ li>a:hover{
 }
 .price-box{
     width:65%;
-    border:5px solid #1D1426;
+    border:5px solid white;
     padding:10px;
     margin:60px 0;
 }
