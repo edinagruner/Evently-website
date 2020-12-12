@@ -716,20 +716,38 @@ p{
 }
 @media only screen and (max-width: 768px){
 
+h2{
+  font-size:3.6rem;  
+}
+
+h4{
+  font-size:3rem;
+  text-shadow:none;
+}
+
+p{
+font-size:18px;
+}
+p.carousel-p{
+    text-shadow: none;
+}
 #header-nav{
     display:none;
+}
+nav.bg-blue{
+    padding:8px;
 }
 
 .hamburger-menu{
     display:inherit;
-    margin-left:90%;
+    margin-left:85%;
 }
 
 .hamburger{
     border:none;
 }
 
-    .main-container, #about, #services,#prices, #contact, #footer{
+.main-container, #about, #services,#prices, #contact, #footer{
      
         padding:90px 10px;
     }
@@ -748,11 +766,7 @@ p{
         z-index:1;
 
     }
-    #love{
-        margin-top:-100px;
-        width:130%;
-
-    }
+    
     #about-brush{
         height:120%;
         margin-top:-300px;
@@ -780,7 +794,7 @@ p{
         width:60%;
     }
     #services{
-        margin-top:760px;
+        margin-top:300px;
     }
     .btn.about{
         margin:auto;
@@ -790,17 +804,30 @@ p{
 
     .carousel-control-prev, .carousel-control-next  {
         margin-top:-85%!important;
+        width:50px;
+    }
+    .white-border-box {
+        padding: 10px;
+    }
+    .ul-prices{
+        padding:15px;
+    }
+    .li-prices{
+        line-height:2;
+        text-align:left;
+    }
+    .price-box{
+        width:100%;
     }
 
-
+    #social-box {
+        width: 100%;
+        
+    }
    
- h5{
-   font-size: 1.6rem;
- }
+ 
 
-p{
-    font-size:1rem;
-}
+
 .footer-container{
    
     grid-template-columns: 100%;
@@ -813,7 +840,14 @@ p{
  
  }
  
-
+ul{
+    display:block;
+    padding:30px;
+    text-align:center;
+}
+ul.bg-brown>li{
+    margin:15px 0;
+}
 }
 
 @media only screen and (max-width: 590px){
