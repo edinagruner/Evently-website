@@ -27,6 +27,8 @@ h4{
 }
 h5{
     font-size:2rem;
+    margin:0 auto 12px;
+    
 }
 .italic{
     font-style: italic;
@@ -747,9 +749,12 @@ nav.bg-blue{
     border:none;
 }
 
-.main-container, #about, #services,#prices, #contact, #footer{
+.main-container, #about, #services,#prices, #footer{
      
-        padding:90px 10px;
+        padding:90px 0;
+    }
+    #contact{
+        padding:90px 15px;
     }
    #text-box-brown{
        width:60%;
