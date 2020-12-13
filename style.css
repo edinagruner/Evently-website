@@ -99,7 +99,7 @@ background-color:#A37076 ;
 }
 
 .brown{
-    color:#CC6F67;
+    color:#8E3A32;
 }
 
 
@@ -631,8 +631,25 @@ input[type=submit]:hover {
 .hover-blue:hover{
     color: #1D1426;
 }
-
-
+.menu{
+    height:20px;
+}
+li.blue{
+    margin:30px auto;
+}
+li.blue>a{
+    color:#1D1426;
+    font-weight: bolder;
+}
+li.blue>a:hover{
+    color: #A47378;
+}
+.spot{
+    width:5px;
+    height:5px;
+    border-radius: 100%;
+    margin:30px auto;
+}
 @media only screen and (max-width: 1190px){
  #about{
      margin-top:60px;
@@ -717,7 +734,12 @@ p{
 
 }
 @media only screen and (max-width: 768px){
-
+#header-logo{
+        margin-top:-10%;
+    }
+#logo{
+    width:150%;
+}
 h2{
   font-size:3.6rem;  
 }
