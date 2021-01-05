@@ -661,7 +661,9 @@ li.blue>a:hover{
 .services-page{
     margin-top:90px;
 }
-
+.services-page-line{
+    display: none;
+}
 .services-grid{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -938,6 +940,9 @@ ul.bg-brown>li{
    
     grid-template-columns: 100%;
 }
+.services-page-line{
+    display: inherit;
+}
 }
 
 @media only screen and (max-width: 590px){
@@ -961,6 +966,22 @@ ul.bg-brown>li{
     #love-img-box{
         width:75%;
     }
+    #services-container{
+        padding:10px;
+    }
+    .services-grid-box{
+        padding:0;
+    }
+    .services-grid-box>h4{
+        font-size:2.5rem;
+          border-bottom: none;
+          height:auto;
+    }
+    .services-page{
+        margin-top:60px;
+
+    }
+  
 }
 
 
