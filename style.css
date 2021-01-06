@@ -4,7 +4,9 @@ body{
 }
 
   /*Fonts*/
-
+a{
+    font-style: inherit;
+}
 
 h1, h2, h3, h4, h5{
     font-family: 'Katibeh', cursive;
@@ -47,7 +49,9 @@ h5{
 .m{
     font-size: 2rem;
 }
-
+p{
+    font-size:1.3rem;
+}
 
 /*Colors*/
 .bg-blue{
@@ -175,7 +179,7 @@ li>a:hover{
     margin-top:-5px;
   }
 
-  .main-container, #about, #services,#prices, #contact, #footer, #services-container{
+  .main-container, #about, #services,#prices, #contact, #footer, #services-container,#about-container{
       width:100%;
       margin:0 ;
       padding:90px;
@@ -696,7 +700,50 @@ border-top: solid 1.5px #1D1426;
  line-height: 2;
  text-align: left;
 }
+/*About Page*/
+#about-page{
+    background-image:url("img/azalea-brush.png") ;
+    background-position: center;
+    padding-top:90px;
+}
+h2.about-page{
+    margin:0 auto 90px;
+}
+#about-page-container{
+   
+    padding:0px;
+  
+}
+#about-page-main-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 90px 30px;
+}
+#about-page-img{
+   grid-column-start: 1;
+}
+#about-page-img>img{
+   width:100%;
 
+}
+
+#about-page-text-box{
+    grid-column-start: 2;
+    padding:20px 0 30px 20px;
+    line-height: 2;
+}
+
+#signature{
+    margin-left:70%;
+  margin-top:30px;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size:5rem;
+}
+p.bigger{
+    font-size:2rem;
+    font-weight:bold ;
+    font-style: italic;
+}
 @media only screen and (max-width: 1190px){
  #about{
      margin-top:60px;
@@ -731,9 +778,6 @@ border-top: solid 1.5px #1D1426;
   .btn.main{
       margin-left:0;
   }
-p{
-          font-size:1.5rem;
-      }
 
 
 .carousel-indicators li{
@@ -765,6 +809,31 @@ p{
 .services-text-box>p{
     font-size: 1rem;
 }
+#about-page-main-box{
+    
+    grid-template-columns: 100%;
+    padding:10%;
+    text-align: center;
+}
+#signature{
+    margin:60px auto 0;
+}
+   
+#about-page-img{
+   grid-column-start: 1;
+}
+#about-page-img>img{
+    width:60%;
+    margin:30px 20%;
+ }
+
+
+#about-page-text-box{
+    grid-column-start: 1;
+    padding:0;
+   
+}
+
 }
 @media only screen and (max-width: 1024px){
 
@@ -825,7 +894,7 @@ nav.bg-blue{
 
 .hamburger-menu{
     display:inherit;
-    margin-left:85%;
+    margin-left:90%;
 }
 
 .hamburger{
@@ -882,7 +951,7 @@ nav.bg-blue{
         width:60%;
     }
     #services{
-        margin-top:300px;
+        margin-top:600px;
     }
     .btn.about{
         margin:auto;
@@ -981,6 +1050,19 @@ ul.bg-brown>li{
         margin-top:60px;
 
     }
+    #about-page-main-box{  
+        padding:5%;  
+    }
+    
+       
+    
+    #about-page-img>img{
+        width:100%;
+        margin:30px 0;
+     }
+    
+    
+    .box
   
 }
 
