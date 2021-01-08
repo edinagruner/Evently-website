@@ -798,6 +798,24 @@ p.bigger{
 .polaroid1>img, .polaroid2>img{
     width:100%;
 }
+/*Cookie Alert*/
+.cookiealert{
+    background:#A47378 !important;
+}
+.acceptcookies{
+    background:#1D1426;
+    border:none;
+}
+.acceptcookies:hover{
+    background:#8E3A32;
+}
+.cookiealert>a{
+    text-decoration: none !important;
+    color:#1D1426;
+}
+.cookiealert>a:hover{
+    color:#8E3A32;
+}
 @media only screen and (max-width: 1190px){
  #about{
      margin-top:60px;
