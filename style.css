@@ -53,6 +53,7 @@ p{
     font-size:1.3rem;
 }
 
+
 /*Colors*/
 .bg-blue{
     background-color:#1D1426;
@@ -207,7 +208,7 @@ li>a:hover{
 
   .btn-outline-dark{
       border:0;
-      padding:0px 36px;
+      padding:0 36px;
       position: relative;
       margin-top:30px;
       margin-left:60%;
@@ -1179,14 +1180,30 @@ ul.bg-brown>li{
     }
     #gallery-page{
         padding:5% 10px;
-     height:2400px;
+     height:3300px;
     }
     .container{
         padding:5px;
     }
 }
 
-
+@media only screen and (max-width: 321px){
+    #text-box-blue {
+        margin-top: 180px;
+        width:90%;
+        padding-left:10px;
+        text-align:left;
+    }
+    #about {
+       
+        height: 1000px;
+    }
+    #gallery-page{
+        padding:5% 10px;
+     height:2800px;
+    }
+    
+}
 
 
 
