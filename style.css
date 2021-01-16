@@ -213,6 +213,19 @@ li>a:hover{
       margin-top:30px;
       margin-left:60%;
   }
+  a#sticky{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    z-index:8;
+   top:300px;
+   right:30px;
+   
+  }
+  a#sticky>img{
+      width:100%;
+
+  }
 
   /*About Section*/
 
@@ -1014,7 +1027,9 @@ nav.bg-blue{
         z-index:1;
 
     }
-    
+    #love{
+        width:120%;
+    }
     #about-brush{
         height:120%;
         margin-top:-300px;
@@ -1048,7 +1063,7 @@ nav.bg-blue{
         margin:auto;
     }
 
-
+   
 
     .carousel-control-prev, .carousel-control-next  {
         margin-top:-85%!important;
@@ -1188,7 +1203,11 @@ ul.bg-brown>li{
     .polaroid2{
         margin-top:-100px;
     }
-    
+    a#sticky{
+      
+        right:20px;
+        
+       }
     
 }
 @media only screen and (max-width: 420px){
