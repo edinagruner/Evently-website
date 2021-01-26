@@ -1165,6 +1165,12 @@ ul.bg-brown>li{
     margin:auto;
     padding:60px 20px;
 }
+#other-page, #partner-page{
+    padding:60px 20px;
+}
+.text-box, .img-box{
+    width:100%;
+}
 }
 
 @media only screen and (max-width: 590px){
