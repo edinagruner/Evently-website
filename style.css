@@ -153,7 +153,7 @@ li>a:hover{
     list-style: none;
     display: flex;
     margin: 0 auto;
-    width:50%;
+    width:70%;
     padding:0;
 
   }
@@ -241,6 +241,7 @@ li>a:hover{
     margin-top:-200px;
     padding-top:0;
     height:1600px;
+  
 }
 
 
@@ -313,7 +314,7 @@ li>a:hover{
  }
  .box{
      width:100%;
-     height:120px;
+     height:48px;
      position: relative;
      z-index: 1;
      margin-top:0;
@@ -696,7 +697,7 @@ li.blue>a:hover{
 }
 .services-grid{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 .services-grid-box{
     width:100%;
@@ -849,13 +850,41 @@ p.bigger{
 }
 
 /*Partners Page, Others Page*/
+#other-page{
+    text-align: center;
+}
 .text-box, .img-box{
     width:50%;
+   margin:auto;
+    text-align: center;
+}
+.img-box{
+    padding:30px 30px 30px 0;
+    border-bottom:#1D1426 2px solid;
+}
+.text-box.partners{
+   
+    padding-bottom:30px ;  
+}
+.partners>img{
+    margin:20px;
+    width:160px;
+}  
+.ovrigt{
+    width:60%;
+    margin-bottom:30px;
+    
+}
+.ovrigt>img{
+    margin:20px;
+    width:45%;
+  
 }
 @media only screen and (max-width: 1190px){
  #about{
      margin-top:60px;
      height:1200px;
+     padding:10px;
  }
  #love-img-box{
      margin-top:-200px;
@@ -866,9 +895,11 @@ p.bigger{
 
 
 
- #text-box-blue, #text-box-brown{
+ #text-box-blue {
      padding:30px;
+     width:50%;
  }
+
  .about-text-box-p{
      margin-top:-100px;
      text-shadow:none;
@@ -880,9 +911,7 @@ p.bigger{
   h1{
       font-size:3.5rem;
   }
-  h3{
-      font-size: 2.8rem;
-  }
+ 
   .btn.main{
       margin-left:0;
   }
@@ -910,10 +939,7 @@ p.bigger{
     width:100%;
     margin-top:auto;
 }
-.services-grid{
-   
-    grid-template-columns: 33.33% 33.33% 33.33%;
-}
+
 .services-text-box>p{
     font-size: 1rem;
 }
@@ -943,17 +969,10 @@ p.bigger{
 }
 #gallery-page{
     padding:5%;
-}
-#wall-grid{
-    width:100%;
-    display:grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    
     
 }
-#polaroid-box{
-    margin:-100% auto 80%;
-}
+
+
  .polaroid1,.polaroid2{
    
     padding:60px 20px 120px 20px;
@@ -969,6 +988,10 @@ p.bigger{
      width:50%;
      margin-top:18%;
      margin-left:8%;
+ }
+ #text-box-brown{
+     padding:30px;
+     
  }
  #about-brush{
      margin-top:-160px;
@@ -988,7 +1011,10 @@ p.bigger{
 .services-text-box>p{
     text-align: center;
 }
-
+.grid{
+   
+    grid-template-columns: 50% 50%;
+}
 }
 @media only screen and (max-width: 768px){
 #header-logo{
@@ -1040,7 +1066,7 @@ nav.bg-blue{
    }
    #text-box-blue{
        width:80%;
-       height:400px;
+    
 
    }
     #love-img-box {
@@ -1141,6 +1167,10 @@ ul.bg-brown>li{
 .services-page-line{
     display: inherit;
 }
+#gallery-page{
+   
+    height:1400px;
+}
 #wall-grid{
 
     grid-template-columns: 50% 50%;
@@ -1170,6 +1200,16 @@ ul.bg-brown>li{
 }
 .text-box, .img-box{
     width:100%;
+}
+.grid{
+   
+    grid-template-columns: 100%;
+    
+}
+.ovrigt>img{
+    margin:20px;
+    width:100%;
+  
 }
 }
 
