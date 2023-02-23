@@ -2,7 +2,9 @@ body{
     margin:0;
     font-family: 'Roboto', sans-serif;
 }
-
+html, body {
+    width: auto!important; overflow-x: hidden!important
+  } 
   /*Fonts*/
 a{
     font-style: inherit;
