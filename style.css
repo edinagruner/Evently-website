@@ -328,13 +328,7 @@ li>a:hover{
  .mobile{
      display:none;
  }
-.mobile{
-    display:none;
-}
 
- .mobile{
-     display:none;
- }
   .h2-line{
       width:30%;
       height:3px;
@@ -1101,15 +1095,12 @@ nav.bg-blue{
     .box-about{
         display:none;
     }
-    .mobile{
-        display:inherit;
-        margin-bottom:60px;
-    }
+ 
     .h2-line{
         width:60%;
     }
     #services{
-        margin-top:600px;
+        margin-top:300px;
     }
     .btn.about{
         margin:auto;
